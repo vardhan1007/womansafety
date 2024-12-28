@@ -1,0 +1,96 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: lightpink;
+}
+p{
+    color: #e42c4e;
+    background-image: linear-gradient(
+        -225deg,
+        #522e38 0%,
+        #602437 15%,
+        #8a2846 29%,
+        #b9375e 49%,
+        #e05780 67%,
+        #522e38 100%
+    );
+    background-size: auto ;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+}
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+}
+.navbar{
+    background: #fd9dae;
+    font-family: "Exo 2",sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #590d22;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: #590d22;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+ul button{
+    border-radius: 5px;
+    background: #e45f77; 
+    color: #590d22;
+}
+.img_deg{
+    float: right;
+    width: 50%;
+}
+.pos_cen{
+    position: absolute;
+    width:70%;
+    left: 5%;
+    top: 20%;
+    background-color: rgb(255, 145, 145);
+    padding: 30px;
+    border-radius: 25px;
+    color: cornsilk;
+}
+.lau{
+    float: left;
+    width: 50%;
+    
+}
+.laugh{
+    position: absolute;
+    width: 70%;
+    right: 5%;
+    top: 85%;
+    background-color: rgb(255, 145, 145);
+    padding: 30px;
+    border-radius: 25px;
+    color: cornsilk;
+}
+.hi{
+    margin-left: 61%;
+    margin-top: 8%;
+}

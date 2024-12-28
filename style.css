@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SUSE", sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    font-size: large;
+}
+
+header {
+    background: #ff6b6b;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+header .header-img {
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 25px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.high{
+    text-decoration: underline ;
+    text-decoration-thickness:2px ;
+    text-decoration-style:wavy ;
+}
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #ff6b6b;
+}
+
+.section-img {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: #ffb3c1;
+    font-family: "Exo 2",sans-serif;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    font-size: 35px;
+    font-weight: 600;
+    color: #590d22;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar li a{
+    color: #590d22;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+}
+.navbar .navdiv ul button{
+    border-radius: 5px;
+    background: #e45f77; 
+    color: #590d22;
+}
