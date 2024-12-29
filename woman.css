@@ -22,7 +22,6 @@ p{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 3s linear infinite;
-    display: inline-block;
 }
 @keyframes textclip {
     to {
